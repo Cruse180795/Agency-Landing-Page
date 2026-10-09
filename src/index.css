@@ -90,3 +90,16 @@ button {
     z-index: -1;
     opacity: 25%;
 }
+
+#StandOutToTheRightAudienceSection .highlight::after {
+    content: "";
+    position: absolute;
+    left: -0.5em;
+    right: -0.5em;
+    bottom: 0;
+    height: 10px;
+    background: var(--color-red-400);
+    border-radius: 999px;
+    z-index: -1;
+    opacity: 25%;
+}
