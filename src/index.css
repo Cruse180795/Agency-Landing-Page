@@ -70,3 +70,23 @@ a,
 button {
     font-family: var(--font-fraunces);
 }
+
+.highlight {
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    z-index: 0;
+}
+
+#TransformYourBrandSection .highlight::after {
+    content: "";
+    position: absolute;
+    left: -0.5em;
+    right: -0.5em;
+    bottom: 0;
+    height: 10px;
+    background: var(--color-yellow-500);
+    border-radius: 999px;
+    z-index: -1;
+    opacity: 25%;
+}

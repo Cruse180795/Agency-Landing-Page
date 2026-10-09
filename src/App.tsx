@@ -1,7 +1,18 @@
+import TransformYourBrandSection from "./components/sections/TransformYourBrandSection";
+
+/** Image Imports */
+import TransformYourBrandMobileImage from "./assets/images/mobile/image-transform.jpg";
+import TransformYourBrandDesktopImage from "./assets/images/desktop/image-transform.jpg";
+
 export default function App() {
   return (
     <div>
-      <h1>Agency Landing Page</h1>
+      <main>
+        <TransformYourBrandSection
+          mobileImageSrc={TransformYourBrandMobileImage}
+          desktopImageSrc={TransformYourBrandDesktopImage}
+        />
+      </main>
     </div>
   );
 }
